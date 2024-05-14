@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+  background-image: linear-gradient(#ff6cc4, #ffde59);
+}
+
+.main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main h1 {
+  font-family: "Spectral", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  color: white;
+}
+
+.main p, h2 {
+    font-family: "Montserrat", sans-serif;
+    color : white;
+    margin-bottom: 40px;
+}
+
+.main button {
+    background-color: transparent;
+    border-color: white;
+    
+    border-radius: 50%;
+    padding: 20px;
+}
